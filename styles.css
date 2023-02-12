@@ -1,0 +1,345 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.sidebar{
+    background-color:rgba(218, 167, 218, 0.966);
+    width:434px;
+    font-family:sans-serif;
+    height:100vh;
+}
+.sidebar nav{
+    padding:45px;
+
+}
+.sidebar nav li{
+    list-style:none;
+    font-size:30px;
+    padding:33px 0;
+
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color:rgb(31, 28, 28);
+
+}
+.main{
+    background-color:rgb(245, 231, 233);
+    width:80vw;
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+    background-color:rgb(229, 229, 241);
+    height:58vh;
+    width:80vw;
+    margin:144px auto;
+    display:flex;
+    justify-content:space-around;
+}
+.MyPic{
+    width:10px;
+    height:10px;
+    padding:30px;
+    
+}
+#myimg{
+    width:70px;
+    height:70px;
+}
+.devInfo{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+
+}
+.hello{
+        font-size:35px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.name{
+        font-size:24px;
+        font-weight:bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.about{
+        font-size:24px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top:32px;
+}
+.buttons{
+    margin-top:30px;
+}
+
+.btn{
+    padding:9px 14px;
+    color:white;
+    border-radius:22px;
+    background-color:rgb(93, 167, 241);
+    font-weight:bold;
+    font-size:21px;
+    margin:0 3px;
+    cursor:pointer;
+}
+.moreabout{
+    font-size:24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:32px;
+}
+.btn:hover{
+    background-color:white;
+    color:dodgerblue;
+
+}
+.btn-sm{
+    font-size:14px;
+    padding:10px 19px;
+    margin:12px 0;
+}
+.contactform{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:0 34px;
+    padding-top:144px;
+}
+.contactform h1{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding:10px 0;
+    display:flex;
+    flex-direction:column;
+}
+.contactform form div input{
+    width:26vw;
+    border-radius:5px;
+    margin:6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size:10px;
+    color:brown;
+    margin:0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+        flex-direction:row;
+
+}
+#form-check input{
+    width:24px;
+    margin: 3px 0;
+
+}
+.hobbies {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 12px 0;
+}
+.myhobbies{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 12px 0;
+    margin:0 5px;
+    font-size:16px;
+    color:black;
+}
+#Sketch{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 2px 0;
+    margin:0 1px;
+    font-size:16px;
+    color:rgb(66, 66, 128) ;
+    border-radius:75px;
+}
+   
+#Music{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 2px 0;
+    margin:0 1px;
+    font-size:16px;
+    color:rgb(66, 66, 128) ;
+    border-radius:75px;
+}
+#Dramas{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 2px 0;
+    margin:0 1px;
+    font-size:16px;
+    color:rgb(66, 66, 128) ;
+    border-radius:75px;
+
+}
+#Novels{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 2px 0;
+    margin:0 1px;
+    font-size:16px;
+    color:rgb(66, 66, 128) ;
+    border-radius:75px;
+
+}
+.edu-table{
+    border-style:   inset;
+
+}
+.r1{
+    border-style:  inset;
+    margin:10px 0;
+
+}
+.r2{
+    border-style: inset;
+    margin:10px 0;
+}
+.r3{
+    border-style: inset;
+    margin:10px 0;
+}
+.edu-table h2{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    padding: 2px 0;
+    margin:0 1px;
+    font-size:16px;
+    color:rgb(66, 66, 128) ;
+
+}
+.academic{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 0;
+    margin: 8px;
+    font-size: 26px;
+    color: darkmagenta;
+
+    
+}
+.c1{
+    border-style:  inset;
+    border-color:blueviolet;
+    margin:14px 0;
+    width: 800px;
+    background-image:url(schoolimg2.png);
+    background-color: antiquewhite;
+}
+.c2{
+    border-style:  inset;
+    border-color:cornflowerblue;
+    margin:14px 0;
+    width: 800px;
+    background-image:url(puclgimg2.png);
+    background-color: antiquewhite;
+}
+.c3{
+    border-style:  inset;
+    border-color:darkcyan;
+    margin:14px 0;
+    width: 800px;
+    background-image:url(engclgimg2.png);
+    background-color:  antiquewhite;
+}
+#sch{
+    margin:14px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    color:rgb(54, 3, 20);
+    
+}
+#clg1{
+    margin:14px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    color:rgb(3, 14, 8);
+}
+#clg2{
+    margin:14px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    color:rgb(32, 14, 14);
+}
+#pri{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(10, 10, 27);
+    font-weight: bolder;
+}
+#high{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(16, 16, 32);
+    font-weight: bolder;
+}
+
+#pu{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(18, 14, 22);
+    font-weight: bolder;
+}
+#eng{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(10, 9, 9);
+    font-weight: bolder;
+    padding: 10px;
+}
+.c4{
+    border-style:  inset;
+    border-color:blueviolet;
+    margin:14px 0;
+    width: 800px;
+    background-image: url(cimg2.png);
+    background-color: antiquewhite;
+    height:150px;
+}
+.c5{
+    border-style:  inset;
+    border-color:cornflowerblue;
+    margin:14px 0;
+    width: 800px;
+    background-image: url(c++img2.png);
+    background-color: antiquewhite;
+    height:150px;
+    padding:10px;
+}
+.c6{
+    border-style:  inset;
+    border-color:darkcyan;
+    margin:14px 0;
+    width: 800px;
+    background-image: url(webimg2.jpg);
+    background-color:  antiquewhite;
+    height:150px;
+    padding:10px;
+}
+#clang{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(148, 33, 33);
+    font-weight: bolder;
+}
+#pylang{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(148, 21, 21);
+    font-weight: bolder;
+}
+#lang{
+    margin:14px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    color:rgb(153, 43, 43);
+}
+#oop{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(126, 5, 15);
+    font-weight: bolder;
+}
+#cj{
+    margin:14px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    color:rgb(129, 9, 25);
+    font-weight: bolder;
+}
+#web{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(85, 4, 4);
+    font-weight: bolder;
+}
+#webs{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(100, 5, 5);
+    font-weight: bolder;
+}
